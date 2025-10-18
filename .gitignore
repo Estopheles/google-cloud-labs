@@ -1,0 +1,32 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.swp
+*~
+
+# Logs
+*.log
+
+# Archivos de configuración local
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# Archivos de respaldo
+*.backup
+*.bak
+
+# Imágenes originales sin procesar (opcional)
+screenshots_raw/
+
+# Archivos comprimidos
+*.zip
+*.tar.gz
+*.rar
