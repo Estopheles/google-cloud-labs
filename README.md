@@ -4,28 +4,28 @@ Este repositorio contiene mi documentación personal de varios laboratorios de G
 
 ## 📚 Contenido
 
-### 1. [Redes VPC y Compute Engine](./labs/networking/vpc-compute-engine-lab.md)
+### 1. Redes VPC y Compute Engine
 
 - Exploración de redes VPC
 - Configuración de firewalls
 - Creación y conectividad de VMs
 - Comparación GCP vs AWS
 
-### 2. [Hello Cloud Run](./labs/cloud-run/hello-cloud-run-lab.md)
+### 2. Hello Cloud Run
 
 - Containerización de aplicaciones Node.js
 - Despliegue serverless con Cloud Run
 - Resolución del error "Cannot find module"
 - Personalización con HTML/CSS animado
 
-### 3. [Arquitectura de 3 Capas](./labs/compute-sql-storage/three-tier-app-lab.md)
+### 3. Arquitectura de 3 Capas
 
 - Integración de Compute Engine, Cloud SQL y Cloud Storage
 - Configuración de conectividad entre servicios
 - Depuración de problemas de instalación
 - Arquitectura web completa
 
-### 4. [Google Cloud Marketplace](./labs/marketplace/lamp-marketplace-lab.md)
+### 4. Google Cloud Marketplace
 
 - Despliegue rápido de stack LAMP
 - Uso de soluciones pre-configuradas
@@ -33,10 +33,10 @@ Este repositorio contiene mi documentación personal de varios laboratorios de G
 
 ### 5. Load Balancing (L4 y L7)
 
-- [**Network Load Balancer (L4)**](load-balancing/network-load-balancer/) - Balanceador de cargas de red (GSP007)
-- [**Application Load Balancer (L7)**](load-balancing/application-load-balancer/) - Balanceador de cargas de aplicaciones (GSP155)
-- [**Internal Application Load Balancer**](load-balancing/internal-application-load-balancer/) - Balanceador interno (GSP041)
-- [**Challenge Lab (L4 y L7)**](load-balancing/challenge-l4-l7/) - Implementación completa (GSP313)
+- **Network Load Balancer (L4)** - Balanceador de cargas de red (GSP007)
+- **Application Load Balancer (L7)** - Balanceador de cargas de aplicaciones (GSP155)
+- **Internal Application Load Balancer** - Balanceador interno (GSP041)
+- **Challenge Lab (L4 y L7)** - Implementación completa (GSP313)
 
 ## 🛠️ Tecnologías Utilizadas
 
@@ -79,7 +79,11 @@ Este repositorio contiene mi documentación personal de varios laboratorios de G
 
 ## 📧 Contacto
 
-Si tienes preguntas sobre estos laboratorios, puedes contactarme a través de GitHub.
+Si tienes preguntas sobre estos laboratorios, puedes contactarme a través de GitHub, LinkedIn.
+
+https://www.linkedin.com/in/christhianrodriguez/
+
+
 
 ---
 
