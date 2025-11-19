@@ -2,7 +2,7 @@
 
 ![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge)
-![Labs](https://img.shields.io/badge/labs_completados-19-blue?style=for-the-badge)
+![Labs](https://img.shields.io/badge/labs_completados-20-blue?style=for-the-badge)
 ![Last Update](https://img.shields.io/badge/última_actualización-noviembre_2025-orange?style=for-the-badge)
 
 > Repositorio de documentación técnica de laboratorios hands-on para la preparación de **Google Cloud Certified Cloud Engineer**. Incluye soluciones a problemas reales, troubleshooting, comparaciones con AWS y capturas de pantalla del proceso completo.
@@ -208,6 +208,20 @@ gcp-labs-practicas/
 **Lab ID**: GSP064  
 **Servicios**: `Cloud IAM` • `Roles` • `Permissions`
 
+#### 🛡️ [Identity-Aware Proxy (IAP): Protege Máquinas Virtuales](labs/Crea%20una%20red%20de%20Google%20Cloud%20segura/Protege%20máquinas%20virtuales%20con%20Chrome%20Enterprise%20Premium/Google%20Cloud:%20Identity-Aware%20Proxy%20(IAP).md)
+
+**Duración**: ~60 minutos  
+**Nivel**: Intermediate
+
+**Lo que aprenderás**:
+
+- Configurar Identity-Aware Proxy para proteger recursos
+- Controlar acceso a VMs sin VPN
+- Implementar autenticación basada en identidad
+- Troubleshooting de permisos IAP
+
+**Servicios**: `Identity-Aware Proxy` • `Cloud IAM` • `Compute Engine`
+
 ---
 
 ### 8. Marketplace
@@ -318,8 +332,8 @@ gcp-labs-practicas/
 
 **Christhian Rodriguez**
 
-[](https://www.linkedin.com/in/christhianrodriguez/)
-[](https://github.com/christhianrodriguez)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/christhianrodriguez)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/christhianrodriguez)
 
 ---
 
