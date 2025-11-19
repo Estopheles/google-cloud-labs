@@ -24,7 +24,7 @@ Flujo de Conexión:
 
 Mi Laptop (Fedora) -> Túnel IAP (HTTPS) -> Red de Google -> VM Privada
 
-![IAP-2025-11-19-221130.png](/home/christhianrodriguez/Documents/Google%20Certified%20Cloud%20Engineer/gcp-labs-practicas/labs/Crea%20una%20red%20de%20Google%20Cloud%20segura/Protege%20máquinas%20virtuales%20con%20Chrome%20Enterprise%20Premium/Fotos/IAP-2025-11-19-221130.png)
+![IAP-2025-11-19-221130.png](Fotos/d2c649b4cd12005800001ee5ec1a0ab979a1ed78.png)
 
 ## 🛠️ 2. Implementación Paso a Paso
 
@@ -36,13 +36,17 @@ Se aprovisionaron tres máquinas virtuales. El punto crítico aquí fue la confi
 
 - **Resultado:** Estas máquinas son invisibles desde internet.
 
+> ![Screenshot From 2025-11-19 01-02-11.png](Fotos/a42001d82686192b6d483655775078b19620502e.png)
 > 
+> *Muestra la lista de VMs donde se ve claramente que `linux-iap` y `windows-iap` no tienen IP externa, mientras que `windows-connectivity` sí.*
 
 ### Paso 2: Intento Fallido (Validación de Aislamiento)
 
 Para confirmar que la seguridad funciona, intenté conectarme vía SSH/RDP tradicional. El intento falló con un error de conexión, confirmando que no hay "puerta trasera" abierta.
 
-> ![Screenshot From 2025-11-19 00-26-19.png](/home/christhianrodriguez/Documents/Google%20Certified%20Cloud%20Engineer/gcp-labs-practicas/labs/Crea%20una%20red%20de%20Google%20Cloud%20segura/Protege%20máquinas%20virtuales%20con%20Chrome%20Enterprise%20Premium/Fotos/Screenshot%20From%202025-11-19%2000-26-19.png)
+> ![Screenshot From 2025-11-19 00-26-19.png](Fotos/6ed8ec30fdca9c2b626a66815819db69f2b673e0.png)
+> 
+> *"Connection via Cloud Identity-Aware Proxy Failed", indicando que falta la configuración de firewall/IAM.*
 
 ### Paso 3: Configuración del Firewall (Pregunta de Examen 🚨)
 
@@ -56,7 +60,7 @@ Para que IAP funcione, la red VPC debe confiar en el tráfico proveniente de los
 
 - **Targets:** Todas las instancias de la red.
 
-> ![Screenshot From 2025-11-19 00-30-48.png](/home/christhianrodriguez/Documents/Google%20Certified%20Cloud%20Engineer/gcp-labs-practicas/labs/Crea%20una%20red%20de%20Google%20Cloud%20segura/Protege%20máquinas%20virtuales%20con%20Chrome%20Enterprise%20Premium/Fotos/Screenshot%20From%202025-11-19%2000-30-48.png)
+> ![Screenshot From 2025-11-19 00-30-48.png](Fotos/789f88fec62eb4509ad743f74bdd698bfe021f1d.png)
 > 
 > Muestra la configuración correcta de la regla de firewall con el rango 35.235.240.0/20.
 
@@ -72,7 +76,7 @@ IAP es "Identity-Aware" (Consciente de la identidad). No basta con abrir el puer
   
   2. La Service Account de la VM bastión (para permitir saltos entre máquinas).
 
-> 📸 Captura recomendada: Inserta aquí image_77b63a.png.
+> ![Screenshot From 2025-11-19 00-36-04.png](Fotos/be25751b903fb97335d4d1f17174fbe8026adbbf.png)
 > 
 > Muestra el panel derecho de IAP donde agregaste los correos y el rol específico.
 
@@ -90,7 +94,7 @@ Explicación técnica:
 
 Este comando abre un puerto aleatorio en la máquina local (ej. 50603) y lo conecta mágicamente con el puerto 3389 de la VM privada a través de IAP.
 
-> ![Screenshot From 2025-11-19 01-17-00.png](/home/christhianrodriguez/Documents/Google%20Certified%20Cloud%20Engineer/gcp-labs-practicas/labs/Crea%20una%20red%20de%20Google%20Cloud%20segura/Protege%20máquinas%20virtuales%20con%20Chrome%20Enterprise%20Premium/Fotos/Screenshot%20From%202025-11-19%2001-17-00.png)
+> ![Screenshot From 2025-11-19 01-17-00.png](Fotos/56a4ea09a45e7ff112f288e5ef57cf287c40d068.png)
 > 
 > Muestra la terminal negra (SDK Shell) ejecutando el comando y diciendo "Listening on port [50603]".
 
@@ -106,9 +110,9 @@ El resultado final es una conexión anidada que demuestra el flujo completo:
 
 4. **Destino:** Escritorio de `windows-iap` (Sin IP Pública).
 
-> ![Screenshot From 2025-11-19 01-11-52.png](/home/christhianrodriguez/Documents/Google%20Certified%20Cloud%20Engineer/gcp-labs-practicas/labs/Crea%20una%20red%20de%20Google%20Cloud%20segura/Protege%20máquinas%20virtuales%20con%20Chrome%20Enterprise%20Premium/Fotos/Screenshot%20From%202025-11-19%2001-11-52.png)
+> ![Screenshot From 2025-11-19 01-11-52.png](Fotos/6f124b463521c05c155fd4629340e62a5f6b6ed9.png)
 > 
-> ![Screenshot From 2025-11-19 01-19-59.png](/home/christhianrodriguez/Documents/Google%20Certified%20Cloud%20Engineer/gcp-labs-practicas/labs/Crea%20una%20red%20de%20Google%20Cloud%20segura/Protege%20máquinas%20virtuales%20con%20Chrome%20Enterprise%20Premium/Fotos/Screenshot%20From%202025-11-19%2001-19-59.png)
+> ![Screenshot From 2025-11-19 01-19-59.png](Fotos/f4e34d66309f8c0be7d6b51bb8020f0e81495d07.png)
 > 
 > Esta es la "Money Shot". Muestra el escritorio de Fedora, conteniendo el escritorio de Windows Bastion, conteniendo el escritorio de Windows Privado.
 
