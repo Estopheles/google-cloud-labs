@@ -3,7 +3,7 @@
 ![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge)
 ![Labs](https://img.shields.io/badge/labs_completados-19-blue?style=for-the-badge)
-![Last Update](https://img.shields.io/badge/última_actualización-noviembre_2024-orange?style=for-the-badge)
+![Last Update](https://img.shields.io/badge/última_actualización-noviembre_2025-orange?style=for-the-badge)
 
 > Repositorio de documentación técnica de laboratorios hands-on para la preparación de **Google Cloud Certified Cloud Engineer**. Incluye soluciones a problemas reales, troubleshooting, comparaciones con AWS y capturas de pantalla del proceso completo.
 
@@ -329,7 +329,7 @@ gcp-labs-practicas/
 - 📸 **Incluye capturas de pantalla del proceso completo**
 - 🐛 **Documenta problemas reales y soluciones**
 - 🔄 **Comparaciones con AWS cuando es relevante**
-- 📅 **Período de realización**: Octubre - Noviembre 2024
+- 📅 **Período de realización**: Octubre - Noviembre 2025
 
 ---
 
