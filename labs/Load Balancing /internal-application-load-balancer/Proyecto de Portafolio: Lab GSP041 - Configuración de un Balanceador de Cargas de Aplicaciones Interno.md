@@ -1,4 +1,4 @@
-# Proyecto de Portafolio: Lab GSP041 - Configuración de un Balanceador de Cargas de Aplicaciones Interno
+# Lab GSP041 - Configuración de un Balanceador de Cargas de Aplicaciones Interno
 
 Este documento detalla el trabajo realizado, los conceptos aprendidos y la arquitectura implementada durante el lab de Google Cloud Skills Boost "GSP041: Configurar un Balanceador de Cargas de Aplicaciones Interno", como parte de mi preparación para la certificación de Associate Cloud Engineer.
 
@@ -65,8 +65,6 @@ Implementamos la siguiente arquitectura para lograr el objetivo:
   - **Regla de Reenvío (`prime-lb`):** Este es el componente que crea la **dirección IP interna estática** (ej. `10.138.0.10`). Toda solicitud a esta IP en el puerto 80 se "reenvía" al `prime-service`.
 
 > ![T65P3C60nkaqN_RQOvlfQaZp8TByJRKw_jVISJW9yMM=.png](/home/christhianrodriguez/Documents/Google%20Certified%20Cloud%20Engineer/Load%20Balancing%20/Balanceador%20interno/Fotos/T65P3C60nkaqN_RQOvlfQaZp8TByJRKw_jVISJW9yMM=.png)
-> 
-> 
 
 ## 5. Resumen de Tareas: ¿Qué hice exactamente?
 

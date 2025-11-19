@@ -1,4 +1,4 @@
-# Proyecto de Portafolio: GSP313 - Implementación de Balanceo de Cargas (L4 y L7)
+# GSP313 - Implementación de Balanceo de Cargas (L4 y L7)
 
 En este proyecto, completé el Lab de Desafío GSP313, que requería una comprensión sólida de los servicios de red de Google Cloud. El desafío consistía en implementar no uno, sino **dos** tipos de balanceadores de carga (NLB y ALB) en un mismo proyecto, cada uno con sus propias VMs y reglas.
 
@@ -76,8 +76,6 @@ Después de crear las instancias, verifiqué que cada una respondía correctamen
 
 ![2025-11-10 12.50.28 console.cloud.google.com 6eab1a7f593f.png](/home/christhianrodriguez/Documents/Google%20Certified%20Cloud%20Engineer/Load%20Balancing%20/Desafio/Fotos/2025-11-10%2012.50.28%20console.cloud.google.com%206eab1a7f593f.png)
 
-
-
 ## 3. Tarea 2: Configuración del Balanceador de Cargas de Red (L4)
 
 Con las VMs listas, construí el Balanceador de Cargas de Red (L4). Este tipo de balanceador es **Regional** y utiliza un "Target Pool".
@@ -123,8 +121,6 @@ Este bloque de comandos se ejecutó con éxito, creando el primer balanceador.
 
 ![2025-11-10 12.55.27 console.cloud.google.com 1f044e4ba1e7.png](/home/christhianrodriguez/Documents/Google%20Certified%20Cloud%20Engineer/Load%20Balancing%20/Desafio/Fotos/2025-11-10%2012.55.27%20console.cloud.google.com%201f044e4ba1e7.png)
 
-
-
 ## 4. Tarea 3: Creación del Balanceador de Cargas de Aplicaciones (L7)
 
 Esta fue la parte más compleja y donde ocurrió el aprendizaje clave. Este balanceador es **Global** y utiliza un "Backend Service" que apunta a un Grupo de Instancias Administrado (MIG).
@@ -136,8 +132,6 @@ El error más común de este lab es intentar reutilizar el *health check* `http-
 - **El Problema:** El `backend-service` (Paso 5) es un recurso **Global**. Por lo tanto, *requiere* un *health check* que también sea **Global**. El `http-basic-check` que creé en la Tarea 2 era **Regional** (o `http` simple, que también es global pero da conflicto de nombre).
 
 - **La Solución:** La forma correcta de evitar la cascada de errores es crear un **NUEVO** *health check* con un nombre diferente (ej: `http-global-check`) y especificar que es `--global`.
-
-
 
 ### 4.2. Los Comandos Correctos (La Pila L7 Completa)
 

@@ -98,8 +98,6 @@ gcloud compute instances create www1 \
 
 *(Los comandos para `www2` y `www3` son idénticos, solo cambia el nombre de la instancia y el contenido del `index.html`)*
 
-
-
 - `gcloud compute firewall-rules create ...`: Comando para crear una nueva regla de firewall.
 
 - `--target-tags network-lb-tag`: **El vínculo más importante**. Esta regla se aplica *solo* a las instancias que tengan la etiqueta `network-lb-tag` (las 3 que acabamos de crear).
@@ -247,8 +245,6 @@ El resultado en la terminal demostró que el balanceador de cargas estaba funcio
 ```
 
 ![2025-11-09 00.11.38 console.cloud.google.com 0d3c308c1ddc.png](/home/christhianrodriguez/Pictures/Vivaldi%20Captures/2025-11-09%2000.11.38%20console.cloud.google.com%200d3c308c1ddc.png)
-
-
 
 ## 💡 6. Conclusión y Aprendizajes Clave
 
