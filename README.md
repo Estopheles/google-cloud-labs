@@ -47,13 +47,15 @@ Este repositorio documenta mi viaje de aprendizaje en **Google Cloud Platform** 
 ```
 gcp-labs-practicas/
 ├── labs/
-│   ├── networking/              # Redes VPC, firewalls, conectividad
-│   ├── cloud-run/               # Despliegues serverless
-│   ├── compute-sql-storage/     # Arquitecturas de 3 capas
-│   ├── marketplace/             # Soluciones preconfiguradas
-│   ├── Load Balancing/          # L4 y L7 load balancers
-│   └── DevEnviroment/           # Cloud Functions, Pub/Sub, IAM, Monitoring
-├── images/                      # Screenshots y diagramas
+│   ├── networking/                                    # Redes VPC, firewalls, conectividad
+│   ├── cloud-run/                                     # Despliegues serverless
+│   ├── compute-sql-storage/                           # Arquitecturas de 3 capas
+│   ├── marketplace/                                   # Soluciones preconfiguradas
+│   ├── Load Balancing/                                # L4 y L7 load balancers
+│   ├── DevEnviroment/                                 # Cloud Functions, Pub/Sub, IAM, Monitoring
+│   ├── Crea una red de Google Cloud segura/          # Identity-Aware Proxy, seguridad de red
+│   └── docs/                                          # Documentación y PDFs de referencia
+├── images/                                            # Screenshots y diagramas
 └── README.md
 ```
 
