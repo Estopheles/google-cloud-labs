@@ -3,7 +3,7 @@
 ![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge)
 ![Labs](https://img.shields.io/badge/labs_completados-20-blue?style=for-the-badge)
-![Last Update](https://img.shields.io/badge/última_actualización-noviembre_2025-orange?style=for-the-badge)
+![Last Update](https://img.shields.io/badge/última_actualización-diciembre_2025-orange?style=for-the-badge)
 ![GitHub stars](https://img.shields.io/github/stars/christhianrodriguez/gcp-labs-practicas?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/christhianrodriguez/gcp-labs-practicas?style=for-the-badge)
 
@@ -391,10 +391,10 @@ Este proyecto está bajo la **Licencia MIT** - ver el archivo [LICENSE](LICENSE)
 - 📸 **Incluye capturas de pantalla del proceso completo**
 - 🐛 **Documenta problemas reales y soluciones**
 - 🔄 **Comparaciones con AWS cuando es relevante**
-- 📅 **Período de realización**: Octubre - Noviembre 2025
+- 📅 **Período de realización**: Octubre - Diciembre 2025
 
 ---
 
 > 💡 **Tip**: Este repositorio se actualiza continuamente. Dale ⭐ para seguir el progreso.
 
-**Última actualización**: Noviembre 2025
+**Última actualización**: Diciembre 2025
