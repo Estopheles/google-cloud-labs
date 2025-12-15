@@ -4,6 +4,8 @@
 ![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge)
 ![Labs](https://img.shields.io/badge/labs_completados-20-blue?style=for-the-badge)
 ![Last Update](https://img.shields.io/badge/última_actualización-noviembre_2025-orange?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/christhianrodriguez/gcp-labs-practicas?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/christhianrodriguez/gcp-labs-practicas?style=for-the-badge)
 
 > Repositorio de documentación técnica de laboratorios hands-on para la preparación de **Google Cloud Certified Cloud Engineer**. Incluye soluciones a problemas reales, troubleshooting, comparaciones con AWS y capturas de pantalla del proceso completo.
 
@@ -12,6 +14,7 @@
 ## 📋 Tabla de Contenidos
 
 - [Sobre este Proyecto](#-sobre-este-proyecto)
+- [Prerrequisitos](#-prerrequisitos)
 - [Estructura del Repositorio](#-estructura-del-repositorio)
 - [Laboratorios Completados](#-laboratorios-completados)
   - [Networking & Compute](#1-networking--compute)
@@ -24,6 +27,8 @@
 - [Tecnologías y Servicios](#️-tecnologías-y-servicios)
 - [Comparación GCP vs AWS](#-comparación-gcp-vs-aws)
 - [Cómo Usar este Repositorio](#-cómo-usar-este-repositorio)
+- [Contribuciones](#-contribuciones)
+- [Licencia](#-licencia)
 - [Contacto](#-contacto)
 
 ---
@@ -42,6 +47,15 @@ Este repositorio documenta mi viaje de aprendizaje en **Google Cloud Platform** 
 
 ---
 
+## 📋 Prerrequisitos
+
+- **Cuenta de Google Cloud Platform** (nivel gratuito disponible)
+- **Conocimientos básicos** de cloud computing
+- **Familiaridad con línea de comandos** (opcional pero recomendado)
+- **Navegador web** actualizado para acceder a la consola de GCP
+
+---
+
 ## 📁 Estructura del Repositorio
 
 ```
@@ -51,9 +65,9 @@ gcp-labs-practicas/
 │   ├── cloud-run/                                     # Despliegues serverless
 │   ├── compute-sql-storage/                           # Arquitecturas de 3 capas
 │   ├── marketplace/                                   # Soluciones preconfiguradas
-│   ├── Load Balancing/                                # L4 y L7 load balancers
-│   ├── DevEnviroment/                                 # Cloud Functions, Pub/Sub, IAM, Monitoring
-│   ├── Crea una red de Google Cloud segura/          # Identity-Aware Proxy, seguridad de red
+│   ├── load-balancing/                                # L4 y L7 load balancers
+│   ├── dev-environment/                               # Cloud Functions, Pub/Sub, IAM, Monitoring
+│   ├── secure-network-creation/                       # Identity-Aware Proxy, seguridad de red
 │   └── docs/                                          # Documentación y PDFs de referencia
 ├── images/                                            # Screenshots y diagramas
 └── README.md
@@ -118,12 +132,12 @@ gcp-labs-practicas/
 
 **Servicios**: `Compute Engine` • `Cloud SQL` • `Cloud Storage`
 
-#### 📦 [Cloud Storage: Qwik Start (Consola)](labs/DevEnviroment/Qwik%20Start%20-%20Bucket/📄%20Documentación%20del%20Lab:%20GSP073%20-%20Cloud%20Storage:%20Qwik%20Start%20(Consola).md)
+#### 📦 [Cloud Storage: Qwik Start (Consola)](labs/dev-environment/Qwik%20Start%20-%20Bucket/📄%20Documentación%20del%20Lab:%20GSP073%20-%20Cloud%20Storage:%20Qwik%20Start%20(Consola).md)
 
 **Lab ID**: GSP073  
 **Servicios**: `Cloud Storage`
 
-#### 💻 [Cloud Storage: Qwik Start (CLI/SDK)](labs/DevEnviroment/Quick%20Start%20-%20%20CLI_SDK/📄%20Documentación%20del%20Lab:%20Cloud%20Storage:%20Qwik%20Start%20(CLI).md)
+#### 💻 [Cloud Storage: Qwik Start (CLI/SDK)](labs/dev-environment/Quick%20Start%20-%20%20CLI_SDK/📄%20Documentación%20del%20Lab:%20Cloud%20Storage:%20Qwik%20Start%20(CLI).md)
 
 **Lab ID**: GSP074  
 **Servicios**: `Cloud Storage` • `gcloud CLI`
@@ -132,7 +146,7 @@ gcp-labs-practicas/
 
 ### 4. Load Balancing
 
-#### ⚖️ [Network Load Balancer (L4)](labs/Load%20Balancing%20/network-load-balancer/Configuración%20de%20un%20Balanceador%20de%20Cargas%20de%20Red%20(GSP007)%20en%20Google%20Cloud.md)
+#### ⚖️ [Network Load Balancer (L4)](labs/load-balancing/network-load-balancer/Configuración%20de%20un%20Balanceador%20de%20Cargas%20de%20Red%20(GSP007)%20en%20Google%20Cloud.md)
 
 **Lab ID**: GSP007  
 **Nivel**: Intermediate  
@@ -140,7 +154,7 @@ gcp-labs-practicas/
 
 **Servicios**: `Load Balancing` • `Compute Engine` • `Health Checks`
 
-#### 🌐 [Application Load Balancer (L7)](labs/Load%20Balancing%20/application-load-balancer/Configuración%20de%20un%20Balanceador%20de%20Cargas%20de%20Aplicaciones%20(GSP155).md)
+#### 🌐 [Application Load Balancer (L7)](labs/load-balancing/application-load-balancer/Configuración%20de%20un%20Balanceador%20de%20Cargas%20de%20Aplicaciones%20(GSP155).md)
 
 **Lab ID**: GSP155  
 **Nivel**: Intermediate  
@@ -148,7 +162,7 @@ gcp-labs-practicas/
 
 **Servicios**: `HTTP(S) Load Balancing` • `Backend Services` • `URL Maps`
 
-#### 🔒 [Internal Application Load Balancer](labs/Load%20Balancing%20/internal-application-load-balancer/Proyecto%20de%20Portafolio:%20Lab%20GSP041%20-%20Configuración%20de%20un%20Balanceador%20de%20Cargas%20de%20Aplicaciones%20Interno.md)
+#### 🔒 [Internal Application Load Balancer](labs/load-balancing/internal-application-load-balancer/Proyecto%20de%20Portafolio:%20Lab%20GSP041%20-%20Configuración%20de%20un%20Balanceador%20de%20Cargas%20de%20Aplicaciones%20Interno.md)
 
 **Lab ID**: GSP041  
 **Nivel**: Advanced  
@@ -156,7 +170,7 @@ gcp-labs-practicas/
 
 **Servicios**: `Internal Load Balancing` • `Private VPC`
 
-#### 🏆 [Challenge Lab: Implementación L4 y L7](labs/Load%20Balancing%20/challenge-l4-l7/Implementación%20de%20Balanceo%20de%20Cargas%20(L4%20y%20L7).md)
+#### 🏆 [Challenge Lab: Implementación L4 y L7](labs/load-balancing/challenge-l4-l7/Implementación%20de%20Balanceo%20de%20Cargas%20(L4%20y%20L7).md)
 
 **Lab ID**: GSP313  
 **Nivel**: Advanced  
@@ -166,21 +180,21 @@ gcp-labs-practicas/
 
 ### 5. DevOps & Monitoring
 
-#### 📊 [Cloud Monitoring: Qwik Start](labs/DevEnviroment/Cloud%20Monitoring:%20Qwik%20Start%0A/📄%20Documentación%20del%20Lab:%20GSP089%20-%20Cloud%20Monitoring:%20Qwik%20Start.md)
+#### 📊 [Cloud Monitoring: Qwik Start](labs/dev-environment/Cloud%20Monitoring:%20Qwik%20Start%0A/📄%20Documentación%20del%20Lab:%20GSP089%20-%20Cloud%20Monitoring:%20Qwik%20Start.md)
 
 **Lab ID**: GSP089  
 **Servicios**: `Cloud Monitoring` • `Metrics` • `Alerting`
 
-#### ⚡ [Cloud Run Functions: Qwik Start (Consola)](labs/DevEnviroment/Cloud%20Run%20Functions:%20Quick%20Start/📄%20Documentación%20del%20Lab:%20GSP081%20-%20Cloud%20Run%20Functions:%20Qwik%20Start%20(Consola).md)
+#### ⚡ [Cloud Run Functions: Qwik Start (Consola)](labs/dev-environment/Cloud%20Run%20Functions:%20Quick%20Start/📄%20Documentación%20del%20Lab:%20GSP081%20-%20Cloud%20Run%20Functions:%20Qwik%20Start%20(Consola).md)
 
 **Lab ID**: GSP081  
 **Servicios**: `Cloud Functions` • `Event-driven Architecture`
 
-#### 🖥️ [Cloud Run Functions: Qwik Start (CLI)](labs/DevEnviroment/Cloud%20Run%20Functions:%20Qwik%20Start%20-%20Línea%20de%20comandos/CloudRun.md)
+#### 🖥️ [Cloud Run Functions: Qwik Start (CLI)](labs/dev-environment/Cloud%20Run%20Functions:%20Qwik%20Start%20-%20Línea%20de%20comandos/CloudRun.md)
 
 **Servicios**: `Cloud Functions` • `gcloud CLI`
 
-#### 🏆 [Lab de Desafío GSP315](labs/DevEnviroment/Desafio%20-%20lab/Lab%20de%20Desafío%20GSP315.md)
+#### 🏆 [Lab de Desafío GSP315](labs/dev-environment/Desafio%20-%20lab/Lab%20de%20Desafío%20GSP315.md)
 
 **Lab ID**: GSP315  
 **Nivel**: Expert
@@ -189,15 +203,15 @@ gcp-labs-practicas/
 
 ### 6. Messaging
 
-#### 📮 [Pub/Sub: Qwik Start (Consola)](labs/DevEnviroment/Pub_Sub:%20Qwik%20Start%20-%20Consola/QuickStart-Pup_Sub.md)
+#### 📮 [Pub/Sub: Qwik Start (Consola)](labs/dev-environment/Pub_Sub:%20Qwik%20Start%20-%20Consola/QuickStart-Pup_Sub.md)
 
 **Servicios**: `Pub/Sub` • `Topics` • `Subscriptions`
 
-#### 💻 [Pub/Sub: Qwik Start (CLI)](labs/DevEnviroment/Pub_Sub:%20Qwik%20Start%20-%20Línea%20de%20comandos/LineaDeComandos.md)
+#### 💻 [Pub/Sub: Qwik Start (CLI)](labs/dev-environment/Pub_Sub:%20Qwik%20Start%20-%20Línea%20de%20comandos/LineaDeComandos.md)
 
 **Servicios**: `Pub/Sub` • `gcloud CLI`
 
-#### 🐍 [Pub/Sub: Qwik Start (Python)](labs/DevEnviroment/Pub_Sub:%20Qwik%20Start%20(Python)/Python.md)
+#### 🐍 [Pub/Sub: Qwik Start (Python)](labs/dev-environment/Pub_Sub:%20Qwik%20Start%20(Python)/Python.md)
 
 **Servicios**: `Pub/Sub` • `Python Client Library`
 
@@ -205,12 +219,12 @@ gcp-labs-practicas/
 
 ### 7. Security & IAM
 
-#### 🔐 [Identity and Access Management (IAM): Qwik Start](labs/DevEnviroment/Quick%20Start%20-%20%20Cloud%20IAM/📄%20Documentación%20del%20Lab:%20GSP064%20-%20Identity%20and%20Access%20Management%20(IAM):%20Qwik%20Start.md)
+#### 🔐 [Identity and Access Management (IAM): Qwik Start](labs/dev-environment/Quick%20Start%20-%20%20Cloud%20IAM/📄%20Documentación%20del%20Lab:%20GSP064%20-%20Identity%20and%20Access%20Management%20(IAM):%20Qwik%20Start.md)
 
 **Lab ID**: GSP064  
 **Servicios**: `Cloud IAM` • `Roles` • `Permissions`
 
-#### 🛡️ [Identity-Aware Proxy (IAP): Protege Máquinas Virtuales](labs/Crea%20una%20red%20de%20Google%20Cloud%20segura/Protege%20máquinas%20virtuales%20con%20Chrome%20Enterprise%20Premium/Google%20Cloud:%20Identity-Aware%20Proxy%20(IAP).md)
+#### 🛡️ [Identity-Aware Proxy (IAP): Protege Máquinas Virtuales](labs/secure-network-creation/Protege%20máquinas%20virtuales%20con%20Chrome%20Enterprise%20Premium/Google%20Cloud:%20Identity-Aware%20Proxy%20(IAP).md)
 
 **Duración**: ~60 minutos  
 **Nivel**: Intermediate
@@ -303,19 +317,19 @@ gcp-labs-practicas/
 1. **Comienza con los fundamentos**:
    
    - [VPC y Compute Engine](labs/networking/mi-aventura-google-cloud-redes-vpc-vms.md)
-   - [Cloud Storage Qwik Start](labs/DevEnviroment/Qwik%20Start%20-%20Bucket/)
-   - [Cloud IAM Basics](labs/DevEnviroment/Quick%20Start%20-%20%20Cloud%20IAM/)
+   - [Cloud Storage Qwik Start](labs/dev-environment/Qwik%20Start%20-%20Bucket/)
+   - [Cloud IAM Basics](labs/dev-environment/Quick%20Start%20-%20%20Cloud%20IAM/)
 
 2. **Avanza a servicios intermedios**:
    
    - [Cloud Run](labs/cloud-run/)
    - [Arquitectura 3 capas](labs/compute-sql-storage/)
-   - [Network Load Balancer](labs/Load%20Balancing%20/network-load-balancer/)
+   - [Network Load Balancer](labs/load-balancing/network-load-balancer/)
 
 3. **Desafíate con labs avanzados**:
    
-   - [Internal Load Balancer](labs/Load%20Balancing%20/internal-application-load-balancer/)
-   - [Challenge Labs](labs/Load%20Balancing%20/challenge-l4-l7/)
+   - [Internal Load Balancer](labs/load-balancing/internal-application-load-balancer/)
+   - [Challenge Labs](labs/load-balancing/challenge-l4-l7/)
 
 ### Para quienes vienen de AWS
 
@@ -327,6 +341,38 @@ gcp-labs-practicas/
 
 - Cada lab documenta **errores reales** encontrados y sus soluciones
 - Busca en los archivos `.md` palabras como "Problema", "Error", "Solución"
+
+---
+
+## 🤝 Contribuciones
+
+¿Encontraste un error o tienes una mejora? ¡Tu contribución es bienvenida!
+
+- 🐛 **Reportar errores**: Abre un [Issue](../../issues)
+- 💡 **Sugerir mejoras**: Abre un [Issue](../../issues) con tu propuesta
+- 🔧 **Enviar correcciones**: Envía un [Pull Request](../../pulls)
+- ⭐ **Apoyar el proyecto**: Dale una estrella si te resulta útil
+
+### Guías para contribuir:
+1. Fork el repositorio
+2. Crea una rama para tu feature (`git checkout -b feature/nueva-funcionalidad`)
+3. Commit tus cambios (`git commit -am 'Agregar nueva funcionalidad'`)
+4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
+5. Abre un Pull Request
+
+---
+
+## 📄 Licencia
+
+Este proyecto está bajo la **Licencia MIT** - ver el archivo [LICENSE](LICENSE) para más detalles.
+
+### Resumen de la licencia:
+- ✅ Uso comercial permitido
+- ✅ Modificación permitida
+- ✅ Distribución permitida
+- ✅ Uso privado permitido
+- ❗ Incluir aviso de copyright
+- ❗ Incluir texto de licencia
 
 ---
 
