@@ -1,8 +1,8 @@
-# 🚀 Google Cloud Platform - Laboratorios Prácticos
+# 🚀 Google Cloud Platform - Hands-on Labs
 
 <!-- Certification Badge -->
 ![GCP Certified](https://img.shields.io/badge/GCP-Associate_Cloud_Engineer-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Valid Until](https://img.shields.io/badge/Valid_Until-Ene_2029-success?style=for-the-badge)
+![Valid Until](https://img.shields.io/badge/Valid_Until-Jan_2029-success?style=for-the-badge)
 
 <!-- Google Cloud Skill Badges -->
 ![Terraform](https://img.shields.io/badge/Skill_Badge-Terraform_Infrastructure-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
@@ -18,22 +18,22 @@
 
 <!-- Repository Stats -->
 ![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge)
-![Labs](https://img.shields.io/badge/labs_completados-44+-blue?style=for-the-badge)
-![Last Update](https://img.shields.io/badge/última_actualización-diciembre_2025-orange?style=for-the-badge)
+![Labs](https://img.shields.io/badge/labs_completed-44+-blue?style=for-the-badge)
+![Last Update](https://img.shields.io/badge/last_update-february_2026-orange?style=for-the-badge)
 ![GitHub stars](https://img.shields.io/github/stars/christhianrodriguez/gcp-labs-practicas?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/christhianrodriguez/gcp-labs-practicas?style=for-the-badge)
 
-> Repositorio de documentación técnica de laboratorios hands-on para la preparación de **Google Cloud Certified Cloud Engineer**. Incluye soluciones a problemas reales, troubleshooting, comparaciones con AWS y capturas de pantalla del proceso completo.
+> Technical documentation repository of hands-on labs for **Google Cloud Certified Cloud Engineer** preparation. Includes real-world problem solutions, troubleshooting, AWS comparisons, and complete process screenshots.
 
 ---
 
-## 📋 Tabla de Contenidos
+## 📋 Table of Contents
 
-- [Sobre este Proyecto](#-sobre-este-proyecto)
-- [Certificación](#-certificación)
-- [Prerrequisitos](#-prerrequisitos)
-- [Estructura del Repositorio](#-estructura-del-repositorio)
-- [Laboratorios Completados](#-laboratorios-completados)
+- [About This Project](#-about-this-project)
+- [Certification](#-certification)
+- [Prerequisites](#-prerequisites)
+- [Repository Structure](#-repository-structure)
+- [Completed Labs](#-completed-labs)
   - [Networking & Compute](#1-networking--compute)
   - [Serverless & Containers](#2-serverless--containers)
   - [Storage & Databases](#3-storage--databases)
@@ -45,57 +45,57 @@
   - [Infrastructure as Code (Terraform)](#9-infrastructure-as-code-terraform)
   - [Data & Analytics](#10-data--analytics)
   - [Marketplace](#11-marketplace)
-- [Tecnologías y Servicios](#️-tecnologías-y-servicios)
-- [Comparación GCP vs AWS](#-comparación-gcp-vs-aws)
-- [Cómo Usar este Repositorio](#-cómo-usar-este-repositorio)
-- [Contribuciones](#-contribuciones)
-- [Licencia](#-licencia)
-- [Contacto](#-contacto)
+- [Technologies & Services](#️-technologies--services)
+- [GCP vs AWS Comparison](#-gcp-vs-aws-comparison)
+- [How to Use This Repository](#-how-to-use-this-repository)
+- [Contributions](#-contributions)
+- [License](#-license)
+- [Contact](#-contact)
 
 ---
 
-## 🎯 Sobre este Proyecto
+## 🎯 About This Project
 
-Este repositorio documenta mi viaje de aprendizaje en **Google Cloud Platform** como parte de mi preparación para la certificación **Cloud Engineer**. Cada laboratorio incluye:
+This repository documents my learning journey in **Google Cloud Platform** as part of my preparation for the **Cloud Engineer** certification. Each lab includes:
 
-- ✅ **Documentación detallada** paso a paso
-- 🐛 **Troubleshooting real** de errores encontrados durante la práctica
-- 📸 **Capturas de pantalla** de cada proceso
-- 🔄 **Comparaciones con AWS** para contexto multi-cloud
-- 💡 **Aprendizajes y best practices**
+- ✅ **Detailed step-by-step documentation**
+- 🐛 **Real troubleshooting** of errors encountered during practice
+- 📸 **Screenshots** of each process
+- 🔄 **AWS comparisons** for multi-cloud context
+- 💡 **Learnings and best practices**
 
-**Objetivo**: Crear una referencia técnica práctica y realista que ayude a otros en su camino de aprendizaje en GCP.
+**Goal**: Create a practical and realistic technical reference to help others in their GCP learning journey.
 
 ---
 
-## 🎓 Certificación
+## 🎓 Certification
 
 ![Google Cloud Certified](https://img.shields.io/badge/Google_Cloud-Associate_Cloud_Engineer-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Valid Until](https://img.shields.io/badge/Válido_Hasta-Febrero_2026-success?style=for-the-badge)
+![Valid Until](https://img.shields.io/badge/Valid_Until-January_2029-success?style=for-the-badge)
 
 **Associate Cloud Engineer** - Google Cloud Platform  
-**Fecha de Certificación**: Enero 2026  
-**Validez**: Hasta Enero 2029  
-**Credential ID**: Ver [certificado](certificado/)
+**Certification Date**: January 2026  
+**Valid Until**: January 2029  
+**Credential ID**: See [certificate](certificado/)
 
-Esta certificación valida habilidades en:
-- Configuración de entornos de soluciones en la nube
-- Planificación y configuración de soluciones en la nube
-- Implementación de soluciones en la nube
-- Garantía del funcionamiento exitoso de soluciones en la nube
-- Configuración de acceso y seguridad
+This certification validates skills in:
+- Setting up cloud solution environments
+- Planning and configuring cloud solutions
+- Deploying cloud solutions
+- Ensuring successful operation of cloud solutions
+- Configuring access and security
 
 ### 🏅 Google Cloud Skill Badges
 
 1. **Mitigate Threats and Vulnerabilities with Security Command Center** (Feb 2026)
-2. **Build Infrastructure with Terraform on Google Cloud** (Dic 2025)
-3. **Develop Your Google Cloud Network** (Dic 2025)
+2. **Build Infrastructure with Terraform on Google Cloud** (Dec 2025)
+3. **Develop Your Google Cloud Network** (Dec 2025)
 4. **Implement Cloud Security Fundamentals on Google Cloud** (Nov 2025)
 5. **Build a Secure Google Cloud Network** (Nov 2025)
 6. **Set Up an App Dev Environment on Google Cloud** (Nov 2025)
 7. **Implement Load Balancing on Compute Engine** (Nov 2025)
 
-### 🛡️ Certificaciones Adicionales
+### 🛡️ Additional Certifications
 
 **Blue Team Junior Analyst Pathway Bundle** - Security Blue Team (Nov 2025)  
 **Credential ID**: 918007510  
@@ -103,105 +103,105 @@ Esta certificación valida habilidades en:
 
 ---
 
-## 📋 Prerrequisitos
+## 📋 Prerequisites
 
-- **Cuenta de Google Cloud Platform** (nivel gratuito disponible)
-- **Conocimientos básicos** de cloud computing
-- **Familiaridad con línea de comandos** (opcional pero recomendado)
-- **Navegador web** actualizado para acceder a la consola de GCP
+- **Google Cloud Platform account** (free tier available)
+- **Basic knowledge** of cloud computing
+- **Command line familiarity** (optional but recommended)
+- **Updated web browser** to access GCP console
 
 ---
 
-## 📁 Estructura del Repositorio
+## 📁 Repository Structure
 
 ```
 gcp-labs-practicas/
-├── certificado/                                       # Certificación Associate Cloud Engineer
+├── certificado/                                       # Associate Cloud Engineer Certification
 ├── labs/
-│   ├── networking/                                    # Redes VPC, firewalls, conectividad
-│   ├── cloud-run/                                     # Despliegues serverless
-│   ├── compute-sql-storage/                           # Arquitecturas de 3 capas
-│   ├── marketplace/                                   # Soluciones preconfiguradas
-│   ├── load-balancing/                                # L4 y L7 load balancers
+│   ├── networking/                                    # VPC networks, firewalls, connectivity
+│   ├── cloud-run/                                     # Serverless deployments
+│   ├── compute-sql-storage/                           # 3-tier architectures
+│   ├── marketplace/                                   # Pre-configured solutions
+│   ├── load-balancing/                                # L4 and L7 load balancers
 │   ├── dev-environment/                               # Cloud Functions, Pub/Sub, IAM, Monitoring
 │   ├── security-operations/                           # Security Command Center, threat detection
 │   │   ├── security-basics/                           # IAM, KMS, VPC Peering, IAP, GKE
 │   │   └── scc-threat-mitigation/                     # Security Command Center labs
 │   ├── develop-network/                               # GKE, BigQuery, SQL
 │   ├── Terraform/                                     # Infrastructure as Code
-│   └── docs/                                          # Documentación y PDFs de referencia
-├── images/                                            # Screenshots y diagramas
+│   └── docs/                                          # Documentation and reference PDFs
+├── images/                                            # Screenshots and diagrams
 └── README.md
 ```
 
 ---
 
-## 🧪 Laboratorios Completados
+## 🧪 Completed Labs
 
 ### 1. Networking & Compute
 
-#### 🌐 [Introducción a VPC y Compute Engine](labs/networking/mi-aventura-google-cloud-redes-vpc-vms.md)
+#### 🌐 [Introduction to VPC and Compute Engine](labs/networking/mi-aventura-google-cloud-redes-vpc-vms.md)
 
-**Lab ID**: Fundamentos de redes  
-**Duración**: ~45 minutos  
-**Nivel**: Beginner
+**Lab ID**: Network Fundamentals  
+**Duration**: ~45 minutes  
+**Level**: Beginner
 
-**Lo que aprenderás**:
+**What you'll learn**:
 
-- Crear y eliminar redes VPC personalizadas
-- Configurar reglas de firewall
-- Conectividad entre VMs en diferentes regiones
-- Troubleshooting de conectividad de red
+- Create and delete custom VPC networks
+- Configure firewall rules
+- Connectivity between VMs in different regions
+- Network connectivity troubleshooting
 
-**Servicios**: `Compute Engine` • `VPC` • `Firewall Rules`
+**Services**: `Compute Engine` • `VPC` • `Firewall Rules`
 
 ---
 
 ### 2. Serverless & Containers
 
-#### 🐳 [Hello Cloud Run - Despliegue de Contenedores Serverless](labs/cloud-run/mi-bitacora-laboratorio-hola-cloud-run.md)
+#### 🐳 [Hello Cloud Run - Serverless Container Deployment](labs/cloud-run/mi-bitacora-laboratorio-hola-cloud-run.md)
 
 **Lab ID**: Cloud Run Basics  
-**Duración**: ~40 minutos  
-**Nivel**: Beginner
+**Duration**: ~40 minutes  
+**Level**: Beginner
 
-**Lo que aprenderás**:
+**What you'll learn**:
 
-- Containerizar aplicaciones Node.js
-- Construir imágenes con Cloud Build
-- Desplegar en Cloud Run
-- **Resolución de error**: `Cannot find module 'index.js'`
+- Containerize Node.js applications
+- Build images with Cloud Build
+- Deploy to Cloud Run
+- **Error resolution**: `Cannot find module 'index.js'`
 
-**Servicios**: `Cloud Run` • `Cloud Build` • `Artifact Registry`
+**Services**: `Cloud Run` • `Cloud Build` • `Artifact Registry`
 
 ---
 
 ### 3. Storage & Databases
 
-#### 🗄️ [Arquitectura de 3 Capas: Compute + SQL + Storage](labs/compute-sql-storage/mi-experiencia-practica-compute-engine-cloud-sql-storage-gcp.md)
+#### 🗄️ [3-Tier Architecture: Compute + SQL + Storage](labs/compute-sql-storage/mi-experiencia-practica-compute-engine-cloud-sql-storage-gcp.md)
 
 **Lab ID**: 3-Tier Architecture  
-**Duración**: ~60 minutos  
-**Nivel**: Intermediate
+**Duration**: ~60 minutes  
+**Level**: Intermediate
 
-**Lo que aprenderás**:
+**What you'll learn**:
 
-- Integrar Compute Engine con Cloud SQL
-- Configurar Cloud Storage buckets
-- Conectividad entre servicios
-- Arquitectura web completa
+- Integrate Compute Engine with Cloud SQL
+- Configure Cloud Storage buckets
+- Service connectivity
+- Complete web architecture
 
-**Servicios**: `Compute Engine` • `Cloud SQL` • `Cloud Storage`
+**Services**: `Compute Engine` • `Cloud SQL` • `Cloud Storage`
 
-#### 📦 [Cloud Storage: Qwik Start (Consola)](labs/dev-environment/Qwik%20Start%20-%20Bucket/📄%20Documentación%20del%20Lab:%20GSP073%20-%20Cloud%20Storage:%20Qwik%20Start%20(Consola).md)
+#### 📦 [Cloud Storage: Qwik Start (Console)](labs/dev-environment/Qwik%20Start%20-%20Bucket/📄%20Documentación%20del%20Lab:%20GSP073%20-%20Cloud%20Storage:%20Qwik%20Start%20(Consola).md)
 
 **Lab ID**: GSP073  
-**Servicios**: `Cloud Storage`
+**Services**: `Cloud Storage`
 
 #### 💻 [Cloud Storage: Qwik Start (CLI/SDK)](labs/dev-environment/Quick%20Start%20-%20%20CLI_SDK/📄%20Documentación%20del%20Lab:%20Cloud%20Storage:%20Qwik%20Start%20(CLI).md)
 
 **Lab ID**: GSP074  
-**Servicios**: `Cloud Storage` • `gcloud CLI`
+**Services**: `Cloud Storage` • `gcloud CLI`
 
 ---
 
@@ -210,32 +210,32 @@ gcp-labs-practicas/
 #### ⚖️ [Network Load Balancer (L4)](labs/load-balancing/network-load-balancer/Configuración%20de%20un%20Balanceador%20de%20Cargas%20de%20Red%20(GSP007)%20en%20Google%20Cloud.md)
 
 **Lab ID**: GSP007  
-**Nivel**: Intermediate  
-**Tipo**: Layer 4 (Transporte)
+**Level**: Intermediate  
+**Type**: Layer 4 (Transport)
 
-**Servicios**: `Load Balancing` • `Compute Engine` • `Health Checks`
+**Services**: `Load Balancing` • `Compute Engine` • `Health Checks`
 
 #### 🌐 [Application Load Balancer (L7)](labs/load-balancing/application-load-balancer/Configuración%20de%20un%20Balanceador%20de%20Cargas%20de%20Aplicaciones%20(GSP155).md)
 
 **Lab ID**: GSP155  
-**Nivel**: Intermediate  
-**Tipo**: Layer 7 (Aplicación)
+**Level**: Intermediate  
+**Type**: Layer 7 (Application)
 
-**Servicios**: `HTTP(S) Load Balancing` • `Backend Services` • `URL Maps`
+**Services**: `HTTP(S) Load Balancing` • `Backend Services` • `URL Maps`
 
 #### 🔒 [Internal Application Load Balancer](labs/load-balancing/internal-application-load-balancer/Proyecto%20de%20Portafolio:%20Lab%20GSP041%20-%20Configuración%20de%20un%20Balanceador%20de%20Cargas%20de%20Aplicaciones%20Interno.md)
 
 **Lab ID**: GSP041  
-**Nivel**: Advanced  
-**Tipo**: Internal L7
+**Level**: Advanced  
+**Type**: Internal L7
 
-**Servicios**: `Internal Load Balancing` • `Private VPC`
+**Services**: `Internal Load Balancing` • `Private VPC`
 
-#### 🏆 [Challenge Lab: Implementación L4 y L7](labs/load-balancing/challenge-l4-l7/Implementación%20de%20Balanceo%20de%20Cargas%20(L4%20y%20L7).md)
+#### 🏆 [Challenge Lab: L4 and L7 Implementation](labs/load-balancing/challenge-l4-l7/Implementación%20de%20Balanceo%20de%20Cargas%20(L4%20y%20L7).md)
 
 **Lab ID**: GSP313  
-**Nivel**: Advanced  
-**Tipo**: Desafío sin instrucciones
+**Level**: Advanced  
+**Type**: Challenge without instructions
 
 ---
 
@@ -244,37 +244,37 @@ gcp-labs-practicas/
 #### 📊 [Cloud Monitoring: Qwik Start](labs/dev-environment/Cloud%20Monitoring:%20Qwik%20Start%0A/📄%20Documentación%20del%20Lab:%20GSP089%20-%20Cloud%20Monitoring:%20Qwik%20Start.md)
 
 **Lab ID**: GSP089  
-**Servicios**: `Cloud Monitoring` • `Metrics` • `Alerting`
+**Services**: `Cloud Monitoring` • `Metrics` • `Alerting`
 
-#### ⚡ [Cloud Run Functions: Qwik Start (Consola)](labs/dev-environment/Cloud%20Run%20Functions:%20Quick%20Start/📄%20Documentación%20del%20Lab:%20GSP081%20-%20Cloud%20Run%20Functions:%20Qwik%20Start%20(Consola).md)
+#### ⚡ [Cloud Run Functions: Qwik Start (Console)](labs/dev-environment/Cloud%20Run%20Functions:%20Quick%20Start/📄%20Documentación%20del%20Lab:%20GSP081%20-%20Cloud%20Run%20Functions:%20Qwik%20Start%20(Consola).md)
 
 **Lab ID**: GSP081  
-**Servicios**: `Cloud Functions` • `Event-driven Architecture`
+**Services**: `Cloud Functions` • `Event-driven Architecture`
 
 #### 🖥️ [Cloud Run Functions: Qwik Start (CLI)](labs/dev-environment/Cloud%20Run%20Functions:%20Qwik%20Start%20-%20Línea%20de%20comandos/CloudRun.md)
 
-**Servicios**: `Cloud Functions` • `gcloud CLI`
+**Services**: `Cloud Functions` • `gcloud CLI`
 
-#### 🏆 [Lab de Desafío GSP315](labs/dev-environment/Desafio%20-%20lab/Lab%20de%20Desafío%20GSP315.md)
+#### 🏆 [Challenge Lab GSP315](labs/dev-environment/Desafio%20-%20lab/Lab%20de%20Desafío%20GSP315.md)
 
 **Lab ID**: GSP315  
-**Nivel**: Expert
+**Level**: Expert
 
 ---
 
 ### 6. Messaging
 
-#### 📮 [Pub/Sub: Qwik Start (Consola)](labs/dev-environment/Pub_Sub:%20Qwik%20Start%20-%20Consola/QuickStart-Pup_Sub.md)
+#### 📮 [Pub/Sub: Qwik Start (Console)](labs/dev-environment/Pub_Sub:%20Qwik%20Start%20-%20Consola/QuickStart-Pup_Sub.md)
 
-**Servicios**: `Pub/Sub` • `Topics` • `Subscriptions`
+**Services**: `Pub/Sub` • `Topics` • `Subscriptions`
 
 #### 💻 [Pub/Sub: Qwik Start (CLI)](labs/dev-environment/Pub_Sub:%20Qwik%20Start%20-%20Línea%20de%20comandos/LineaDeComandos.md)
 
-**Servicios**: `Pub/Sub` • `gcloud CLI`
+**Services**: `Pub/Sub` • `gcloud CLI`
 
 #### 🐍 [Pub/Sub: Qwik Start (Python)](labs/dev-environment/Pub_Sub:%20Qwik%20Start%20(Python)/Python.md)
 
-**Servicios**: `Pub/Sub` • `Python Client Library`
+**Services**: `Pub/Sub` • `Python Client Library`
 
 ---
 
@@ -283,134 +283,134 @@ gcp-labs-practicas/
 #### 🔐 [Identity and Access Management (IAM): Qwik Start](labs/dev-environment/Quick%20Start%20-%20%20Cloud%20IAM/📄%20Documentación%20del%20Lab:%20GSP064%20-%20Identity%20and%20Access%20Management%20(IAM):%20Qwik%20Start.md)
 
 **Lab ID**: GSP064  
-**Servicios**: `Cloud IAM` • `Roles` • `Permissions`
+**Services**: `Cloud IAM` • `Roles` • `Permissions`
 
-#### 🛡️ [Identity-Aware Proxy (IAP): Protege Máquinas Virtuales](labs/secure-network-creation/Protege%20máquinas%20virtuales%20con%20Chrome%20Enterprise%20Premium/Google%20Cloud:%20Identity-Aware%20Proxy%20(IAP).md)
+#### 🛡️ [Identity-Aware Proxy (IAP): Protect Virtual Machines](labs/secure-network-creation/Protege%20máquinas%20virtuales%20con%20Chrome%20Enterprise%20Premium/Google%20Cloud:%20Identity-Aware%20Proxy%20(IAP).md)
 
-**Duración**: ~60 minutos  
-**Nivel**: Intermediate
+**Duration**: ~60 minutes  
+**Level**: Intermediate
 
-**Lo que aprenderás**:
+**What you'll learn**:
 
-- Configurar Identity-Aware Proxy para proteger recursos
-- Controlar acceso a VMs sin VPN
-- Implementar autenticación basada en identidad
-- Troubleshooting de permisos IAP
+- Configure Identity-Aware Proxy to protect resources
+- Control VM access without VPN
+- Implement identity-based authentication
+- IAP permissions troubleshooting
 
-**Servicios**: `Identity-Aware Proxy` • `Cloud IAM` • `Compute Engine`
+**Services**: `Identity-Aware Proxy` • `Cloud IAM` • `Compute Engine`
 
-#### 🔐 [Service Accounts y Roles](labs/security-operations/security-basics/Aspectos%20principales%20de%20las%20cuentas%20de%20servicio%20y%20los%20roles/Implementación%20Segura%20de%20Identidades%20de%20Máquina%20en%20Google%20Cloud.md)
+#### 🔐 [Service Accounts and Roles](labs/security-operations/security-basics/Aspectos%20principales%20de%20las%20cuentas%20de%20servicio%20y%20los%20roles/Implementación%20Segura%20de%20Identidades%20de%20Máquina%20en%20Google%20Cloud.md)
 
-**Nivel**: Intermediate | **Duración**: ~45 min
+**Level**: Intermediate | **Duration**: ~45 min
 
-**Lo que aprenderás**:
-- Crear y gestionar Service Accounts
-- Aplicar principio de menor privilegio
-- Autenticación máquina-a-máquina
+**What you'll learn**:
+- Create and manage Service Accounts
+- Apply principle of least privilege
+- Machine-to-machine authentication
 
-**Servicios**: `Service Accounts` • `IAM Roles` • `BigQuery`
+**Services**: `Service Accounts` • `IAM Roles` • `BigQuery`
 
-#### 🎨 [Roles Personalizados de IAM](labs/security-operations/security-basics/Roles%20personalizados%20de%20IAM/Roles%20personalizados%20de%20IAM.md)
+#### 🎨 [Custom IAM Roles](labs/security-operations/security-basics/Roles%20personalizados%20de%20IAM/Roles%20personalizados%20de%20IAM.md)
 
-**Nivel**: Advanced | **Duración**: ~40 min
+**Level**: Advanced | **Duration**: ~40 min
 
-**Servicios**: `Custom IAM Roles` • `Permissions`
+**Services**: `Custom IAM Roles` • `Permissions`
 
 #### 🔒 [Cloud KMS](labs/security-operations/security-basics/Empieza%20a%20usar%20Cloud%20KMS/EmpiezaA_usar_Cloud_KMS.md)
 
-**Nivel**: Intermediate | **Duración**: ~35 min
+**Level**: Intermediate | **Duration**: ~35 min
 
-**Servicios**: `Cloud KMS` • `Encryption`
+**Services**: `Cloud KMS` • `Encryption`
 
 #### 🌐 [VPC Peering](labs/security-operations/security-basics/Intercambio%20de%20tráfico%20entre%20redes%20de%20VPC/Reporte%20de%20Laboratorio:%20Intercambio%20de%20Tráfico%20entre%20Redes%20VPC%20(VPC%20Peering).md)
 
-**Nivel**: Intermediate | **Duración**: ~50 min
+**Level**: Intermediate | **Duration**: ~50 min
 
-**Servicios**: `VPC Peering` • `Routing`
+**Services**: `VPC Peering` • `Routing`
 
-#### 🔐 [Autenticación con IAP](labs/security-operations/security-basics/Autenticación%20de%20Usuarios%20con%20Identity-Aware%20Proxy%20(IAP)/Autenticación%20de%20Usuarios%20con%20Identity-Aware%20Proxy.md)
+#### 🔐 [Authentication with IAP](labs/security-operations/security-basics/Autenticación%20de%20Usuarios%20con%20Identity-Aware%20Proxy%20(IAP)/Autenticación%20de%20Usuarios%20con%20Identity-Aware%20Proxy.md)
 
-**Nivel**: Advanced | **Duración**: ~60 min
+**Level**: Advanced | **Duration**: ~60 min
 
-**Servicios**: `Identity-Aware Proxy` • `OAuth`
+**Services**: `Identity-Aware Proxy` • `OAuth`
 
 #### 🛡️ [Cloud Armor](labs/security-operations/secure-network-creation/Balanceador%20de%20cargas%20de%20aplicaciones%20con%20Cloud%20Armor/Balanceador%20de%20cargas%20de%20aplicaciones%20con%20Cloud%20Armor.md)
 
-**Nivel**: Advanced | **Duración**: ~55 min
+**Level**: Advanced | **Duration**: ~55 min
 
-**Servicios**: `Cloud Armor` • `DDoS Protection`
+**Services**: `Cloud Armor` • `DDoS Protection`
 
-#### 🏆 [Challenge: Arquitectura Segura GSP322](labs/security-operations/secure-network-creation/Lab%20de%20desafío_GSP322/Arquitectura%20de%20Red%20Segura%20y%20Modelo%20Zero%20Trust%20en%20Google%20Cloud.md)
+#### 🏆 [Challenge: Secure Architecture GSP322](labs/security-operations/secure-network-creation/Lab%20de%20desafío_GSP322/Arquitectura%20de%20Red%20Segura%20y%20Modelo%20Zero%20Trust%20en%20Google%20Cloud.md)
 
-**Lab ID**: GSP322 | **Nivel**: Expert
+**Lab ID**: GSP322 | **Level**: Expert
 
-**Servicios**: `Zero Trust` • `VPC` • `IAP`
+**Services**: `Zero Trust` • `VPC` • `IAP`
 
 #### 🐛 [Security Command Center](labs/security-operations/scc-threat-mitigation/)
 
-**Nivel**: Advanced | **Labs**: 5 (Setup, Vulnerabilities, Web Scanning, Threat Detection, Challenge)
+**Level**: Advanced | **Labs**: 5 (Setup, Vulnerabilities, Web Scanning, Threat Detection, Challenge)
 
-**Servicios**: `Security Command Center` • `Threat Detection`
+**Services**: `Security Command Center` • `Threat Detection`
 
 ---
 
 ### 8. Kubernetes & GKE
 
-#### ☸️ [Administración de Deployments en GKE](labs/develop-network/Cómo%20administrar%20implementaciones%20con%20Kubernetes%20Engine/Administración%20de%20Implementaciones%20con%20Google%20Kubernetes%20Engine.md)
+#### ☸️ [Managing Deployments in GKE](labs/develop-network/Cómo%20administrar%20implementaciones%20con%20Kubernetes%20Engine/Administración%20de%20Implementaciones%20con%20Google%20Kubernetes%20Engine.md)
 
-**Nivel**: Intermediate | **Duración**: ~60 min
+**Level**: Intermediate | **Duration**: ~60 min
 
-**Lo que aprenderás**:
-- Crear y gestionar deployments en GKE
-- Rolling updates y rollbacks
-- Scaling de aplicaciones
+**What you'll learn**:
+- Create and manage GKE deployments
+- Rolling updates and rollbacks
+- Application scaling
 
-**Servicios**: `GKE` • `Kubernetes` • `Deployments`
+**Services**: `GKE` • `Kubernetes` • `Deployments`
 
 #### 🔒 [Private GKE Cluster](labs/security-operations/security-basics/Cómo%20configurar%20un%20clúster%20de%20Kubernetes%20privado/Cómo_configurar_un_clúster_de_Kubernetes_privado.md)
 
-**Nivel**: Advanced | **Duración**: ~55 min
+**Level**: Advanced | **Duration**: ~55 min
 
-**Lo que aprenderás**:
-- Private nodes y master endpoint
+**What you'll learn**:
+- Private nodes and master endpoint
 - Network policies
 - Pod security
 
-**Servicios**: `GKE` • `Private Cluster` • `Network Policies`
+**Services**: `GKE` • `Private Cluster` • `Network Policies`
 
 #### 🏆 [Challenge: Secure GKE](labs/security-operations/security-basics/Desafio:%20Implementación%20de%20Infraestructura%20Segura%20en%20Google%20Kubernetes%20Engine/Reporte%20Técnico:%20Implementación%20de%20Infraestructura%20Segura%20en%20Google%20Kubernetes%20Engine.md)
 
-**Nivel**: Expert | **Duración**: ~90 min
+**Level**: Expert | **Duration**: ~90 min
 
-**Servicios**: `GKE` • `RBAC` • `Workload Identity`
+**Services**: `GKE` • `RBAC` • `Workload Identity`
 
-#### 🏆 [Challenge: Desarrolla tu Red](labs/develop-network/Desarrolla%20tu%20red%20de%20Google%20Cloud:%20Lab%20de%20desafío/Desarrolla%20tu%20red%20de%20Google%20Cloud:%20Lab%20de%20desafío.md)
+#### 🏆 [Challenge: Develop Your Network](labs/develop-network/Desarrolla%20tu%20red%20de%20Google%20Cloud:%20Lab%20de%20desafío/Desarrolla%20tu%20red%20de%20Google%20Cloud:%20Lab%20de%20desafío.md)
 
-**Nivel**: Expert | **Duración**: ~75 min
+**Level**: Expert | **Duration**: ~75 min
 
-**Servicios**: `VPC` • `Load Balancing` • `Firewall`
+**Services**: `VPC` • `Load Balancing` • `Firewall`
 
 ---
 
 ### 9. Infrastructure as Code (Terraform)
 
-#### 🏗️ [Módulos de Terraform](labs/Terraform/Cómo%20interactuar%20con%20los%20módulos%20de%20Terraform/GSP751.md)
+#### 🏗️ [Terraform Modules](labs/Terraform/Cómo%20interactuar%20con%20los%20módulos%20de%20Terraform/GSP751.md)
 
-**Lab ID**: GSP751 | **Nivel**: Intermediate
+**Lab ID**: GSP751 | **Level**: Intermediate
 
-**Servicios**: `Terraform` • `IaC` • `Modules`
+**Services**: `Terraform` • `IaC` • `Modules`
 
-#### 📦 [Estado de Terraform](labs/Terraform/Administra%20el%20estado%20de%20Terraform/AdministraelestadodeTerraform.md)
+#### 📦 [Terraform State Management](labs/Terraform/Administra%20el%20estado%20de%20Terraform/AdministraelestadodeTerraform.md)
 
-**Nivel**: Advanced | **Duración**: ~45 min
+**Level**: Advanced | **Duration**: ~45 min
 
-**Servicios**: `Terraform` • `State Management`
+**Services**: `Terraform` • `State Management`
 
 #### 🏆 [Challenge: Terraform](labs/Terraform/Lab%20de%20desafio/LabDesafio.md)
 
-**Nivel**: Expert | **Duración**: ~60 min
+**Level**: Expert | **Duration**: ~60 min
 
-**Servicios**: `Terraform` • `IaC`
+**Services**: `Terraform` • `IaC`
 
 ---
 
@@ -418,57 +418,57 @@ gcp-labs-practicas/
 
 #### 📊 [BigQuery and Cloud SQL](labs/develop-network/Introduction%20to%20SQL%20for%20BigQuery%20and%20Cloud%20SQL/BigQueryLabs.md)
 
-**Nivel**: Intermediate | **Duración**: ~60 min
+**Level**: Intermediate | **Duration**: ~60 min
 
-**Servicios**: `BigQuery` • `Cloud SQL` • `SQL`
+**Services**: `BigQuery` • `Cloud SQL` • `SQL`
 
 ---
 
 ### 11. Marketplace
 
-#### 🛒 [Primeros Pasos con Google Cloud Marketplace](labs/marketplace/mi-informe-laboratorio-primeros-pasos-google-cloud-marketplace.md)
+#### 🛒 [Getting Started with Google Cloud Marketplace](labs/marketplace/mi-informe-laboratorio-primeros-pasos-google-cloud-marketplace.md)
 
-**Duración**: ~20 minutos  
-**Nivel**: Beginner
+**Duration**: ~20 minutes  
+**Level**: Beginner
 
-**Lo que aprenderás**:
+**What you'll learn**:
 
-- Desplegar soluciones preconfiguradas
-- Stack LAMP con un click
-- Comparación con AWS Marketplace
+- Deploy pre-configured solutions
+- One-click LAMP stack
+- AWS Marketplace comparison
 
-**Servicios**: `Cloud Marketplace` • `Click to Deploy`
+**Services**: `Cloud Marketplace` • `Click to Deploy`
 
 ---
 
-## 🛠️ Tecnologías y Servicios
+## 🛠️ Technologies & Services
 
 ### Compute
 
-- **Compute Engine**: Máquinas virtuales escalables
-- **Cloud Run**: Contenedores serverless completamente administrados
-- **Cloud Functions**: Funciones serverless event-driven
+- **Compute Engine**: Scalable virtual machines
+- **Cloud Run**: Fully managed serverless containers
+- **Cloud Functions**: Event-driven serverless functions
 
 ### Networking
 
-- **VPC**: Redes virtuales privadas globales
-- **Cloud Load Balancing**: Balanceadores L4 y L7
-- **Firewall Rules**: Seguridad de red
+- **VPC**: Global private virtual networks
+- **Cloud Load Balancing**: L4 and L7 load balancers
+- **Firewall Rules**: Network security
 
 ### Storage & Databases
 
-- **Cloud Storage**: Almacenamiento de objetos
-- **Cloud SQL**: Bases de datos relacionales administradas
+- **Cloud Storage**: Object storage
+- **Cloud SQL**: Managed relational databases
 
 ### DevOps
 
-- **Cloud Build**: CI/CD para contenedores
-- **Artifact Registry**: Registry de contenedores
-- **Cloud Monitoring**: Observabilidad y alertas
+- **Cloud Build**: CI/CD for containers
+- **Artifact Registry**: Container registry
+- **Cloud Monitoring**: Observability and alerting
 
 ### Messaging & Integration
 
-- **Pub/Sub**: Mensajería asíncrona
+- **Pub/Sub**: Asynchronous messaging
 
 ### Security
 
@@ -476,91 +476,91 @@ gcp-labs-practicas/
 
 ---
 
-## 🔄 Comparación GCP vs AWS
+## 🔄 GCP vs AWS Comparison
 
-| Servicio GCP        | Servicio AWS | Función                     | Diferencias Clave                                                     |
-| ------------------- | ------------ | --------------------------- | --------------------------------------------------------------------- |
-| **Compute Engine**  | EC2          | Máquinas virtuales          | GCP: facturación por segundo; AWS: por hora (instancias bajo demanda) |
-| **Cloud Run**       | Fargate      | Contenedores serverless     | Cloud Run: escala a cero; Fargate: mínimo 1 tarea                     |
-| **Cloud Functions** | Lambda       | Funciones serverless        | Similares, diferentes triggers y runtimes                             |
-| **Cloud SQL**       | RDS          | Bases de datos relacionales | GCP: integración nativa con VPC; AWS: más motores disponibles         |
-| **Cloud Storage**   | S3           | Almacenamiento de objetos   | S3: más clases de almacenamiento; GCP: más simple                     |
-| **VPC**             | VPC          | Redes virtuales             | GCP: VPC es global; AWS: VPC por región                               |
-| **Load Balancing**  | ELB/ALB/NLB  | Balanceadores de carga      | GCP: un solo balanceador puede ser global                             |
-| **Cloud Build**     | CodeBuild    | CI/CD                       | Similares, diferentes integraciones                                   |
-| **Pub/Sub**         | SNS/SQS      | Mensajería                  | Pub/Sub: ambos patrones en uno; AWS: servicios separados              |
-| **Cloud IAM**       | IAM          | Gestión de identidades      | Modelos similares, sintaxis diferente                                 |
-| **Marketplace**     | Marketplace  | Soluciones preconfiguradas  | Funcionalidad equivalente                                             |
+| GCP Service         | AWS Service | Function                    | Key Differences                                                       |
+| ------------------- | ----------- | --------------------------- | --------------------------------------------------------------------- |
+| **Compute Engine**  | EC2         | Virtual machines            | GCP: per-second billing; AWS: per-hour (on-demand instances)          |
+| **Cloud Run**       | Fargate     | Serverless containers       | Cloud Run: scales to zero; Fargate: minimum 1 task                    |
+| **Cloud Functions** | Lambda      | Serverless functions        | Similar, different triggers and runtimes                              |
+| **Cloud SQL**       | RDS         | Relational databases        | GCP: native VPC integration; AWS: more engines available              |
+| **Cloud Storage**   | S3          | Object storage              | S3: more storage classes; GCP: simpler                                |
+| **VPC**             | VPC         | Virtual networks            | GCP: VPC is global; AWS: VPC per region                               |
+| **Load Balancing**  | ELB/ALB/NLB | Load balancers              | GCP: single load balancer can be global                               |
+| **Cloud Build**     | CodeBuild   | CI/CD                       | Similar, different integrations                                       |
+| **Pub/Sub**         | SNS/SQS     | Messaging                   | Pub/Sub: both patterns in one; AWS: separate services                 |
+| **Cloud IAM**       | IAM         | Identity management         | Similar models, different syntax                                      |
+| **Marketplace**     | Marketplace | Pre-configured solutions    | Equivalent functionality                                              |
 
 ---
 
-## 📖 Cómo Usar este Repositorio
+## 📖 How to Use This Repository
 
-### Para Principiantes en GCP
+### For GCP Beginners
 
-1. **Comienza con los fundamentos**:
+1. **Start with fundamentals**:
    
-   - [VPC y Compute Engine](labs/networking/mi-aventura-google-cloud-redes-vpc-vms.md)
+   - [VPC and Compute Engine](labs/networking/mi-aventura-google-cloud-redes-vpc-vms.md)
    - [Cloud Storage Qwik Start](labs/dev-environment/Qwik%20Start%20-%20Bucket/)
    - [Cloud IAM Basics](labs/dev-environment/Quick%20Start%20-%20%20Cloud%20IAM/)
 
-2. **Avanza a servicios intermedios**:
+2. **Progress to intermediate services**:
    
    - [Cloud Run](labs/cloud-run/)
-   - [Arquitectura 3 capas](labs/compute-sql-storage/)
+   - [3-tier Architecture](labs/compute-sql-storage/)
    - [Network Load Balancer](labs/load-balancing/network-load-balancer/)
 
-3. **Desafíate con labs avanzados**:
+3. **Challenge yourself with advanced labs**:
    
    - [Internal Load Balancer](labs/load-balancing/internal-application-load-balancer/)
    - [Challenge Labs](labs/load-balancing/challenge-l4-l7/)
 
-### Para quienes vienen de AWS
+### For Those Coming from AWS
 
-- Revisa las secciones de **"Comparación con AWS"** en cada lab
-- Consulta la [tabla de equivalencias](#-comparación-gcp-vs-aws) arriba
-- Los labs incluyen analogías con servicios de AWS
+- Review **"AWS Comparison"** sections in each lab
+- Check the [equivalence table](#-gcp-vs-aws-comparison) above
+- Labs include analogies with AWS services
 
-### Para Troubleshooting
+### For Troubleshooting
 
-- Cada lab documenta **errores reales** encontrados y sus soluciones
-- Busca en los archivos `.md` palabras como "Problema", "Error", "Solución"
-
----
-
-## 🤝 Contribuciones
-
-¿Encontraste un error o tienes una mejora? ¡Tu contribución es bienvenida!
-
-- 🐛 **Reportar errores**: Abre un [Issue](../../issues)
-- 💡 **Sugerir mejoras**: Abre un [Issue](../../issues) con tu propuesta
-- 🔧 **Enviar correcciones**: Envía un [Pull Request](../../pulls)
-- ⭐ **Apoyar el proyecto**: Dale una estrella si te resulta útil
-
-### Guías para contribuir:
-1. Fork el repositorio
-2. Crea una rama para tu feature (`git checkout -b feature/nueva-funcionalidad`)
-3. Commit tus cambios (`git commit -am 'Agregar nueva funcionalidad'`)
-4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
-5. Abre un Pull Request
+- Each lab documents **real errors** encountered and their solutions
+- Search `.md` files for words like "Problem", "Error", "Solution"
 
 ---
 
-## 📄 Licencia
+## 🤝 Contributions
 
-Este proyecto está bajo la **Licencia MIT** - ver el archivo [LICENSE](LICENSE) para más detalles.
+Found an error or have an improvement? Your contribution is welcome!
 
-### Resumen de la licencia:
-- ✅ Uso comercial permitido
-- ✅ Modificación permitida
-- ✅ Distribución permitida
-- ✅ Uso privado permitido
-- ❗ Incluir aviso de copyright
-- ❗ Incluir texto de licencia
+- 🐛 **Report bugs**: Open an [Issue](../../issues)
+- 💡 **Suggest improvements**: Open an [Issue](../../issues) with your proposal
+- 🔧 **Submit corrections**: Send a [Pull Request](../../pulls)
+- ⭐ **Support the project**: Give it a star if you find it useful
+
+### Contributing guidelines:
+1. Fork the repository
+2. Create a branch for your feature (`git checkout -b feature/new-feature`)
+3. Commit your changes (`git commit -am 'Add new feature'`)
+4. Push to the branch (`git push origin feature/new-feature`)
+5. Open a Pull Request
 
 ---
 
-## 📧 Contacto
+## 📄 License
+
+This project is under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+### License summary:
+- ✅ Commercial use allowed
+- ✅ Modification allowed
+- ✅ Distribution allowed
+- ✅ Private use allowed
+- ❗ Include copyright notice
+- ❗ Include license text
+
+---
+
+## 📧 Contact
 
 **Christhian Rodriguez**
 
@@ -569,16 +569,18 @@ Este proyecto está bajo la **Licencia MIT** - ver el archivo [LICENSE](LICENSE)
 
 ---
 
-## 📝 Notas
+## 📝 Notes
 
-- ✅ **Todos los labs fueron completados exitosamente**
-- 📸 **Incluye capturas de pantalla del proceso completo**
-- 🐛 **Documenta problemas reales y soluciones**
-- 🔄 **Comparaciones con AWS cuando es relevante**
-- 📅 **Período de realización**: Octubre - Diciembre 2025
+- ✅ **All labs successfully completed**
+- 📸 **Includes complete process screenshots**
+- 🐛 **Documents real problems and solutions**
+- 🔄 **AWS comparisons when relevant**
+- 📅 **Completion period**: October - February 2026
 
 ---
 
-> 💡 **Tip**: Este repositorio se actualiza continuamente. Dale ⭐ para seguir el progreso.
+> 💡 **Tip**: This repository is continuously updated. Give it a ⭐ to follow the progress.
 
-**Última actualización**: Diciembre 2025
+**Last update**: February 2026
+
+> 📝 **Note**: Lab documentation is primarily in Spanish as these represent my personal learning journey. Technical implementations, code, and architectures are universal. English translations available upon request.
