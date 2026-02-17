@@ -1,6 +1,22 @@
 # 🚀 Google Cloud Platform - Laboratorios Prácticos
 
-![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+<!-- Certification Badge -->
+![GCP Certified](https://img.shields.io/badge/GCP-Associate_Cloud_Engineer-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Valid Until](https://img.shields.io/badge/Valid_Until-Ene_2029-success?style=for-the-badge)
+
+<!-- Google Cloud Skill Badges -->
+![Terraform](https://img.shields.io/badge/Skill_Badge-Terraform_Infrastructure-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Network Development](https://img.shields.io/badge/Skill_Badge-Network_Development-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Secure Network](https://img.shields.io/badge/Skill_Badge-Secure_Network-00B4D8?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Security Fundamentals](https://img.shields.io/badge/Skill_Badge-Security_Fundamentals-00B4D8?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Load Balancing](https://img.shields.io/badge/Skill_Badge-Load_Balancing-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![App Dev Environment](https://img.shields.io/badge/Skill_Badge-App_Dev_Environment-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Security Command Center](https://img.shields.io/badge/Skill_Badge-Security_Command_Center-EA4335?style=for-the-badge&logo=google-cloud&logoColor=white)
+
+<!-- Additional Certification -->
+![Blue Team](https://img.shields.io/badge/Security_Blue_Team-Junior_Analyst-0066CC?style=for-the-badge&logo=security&logoColor=white)
+
+<!-- Repository Stats -->
 ![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge)
 ![Labs](https://img.shields.io/badge/labs_completados-44+-blue?style=for-the-badge)
 ![Last Update](https://img.shields.io/badge/última_actualización-diciembre_2025-orange?style=for-the-badge)
@@ -58,8 +74,8 @@ Este repositorio documenta mi viaje de aprendizaje en **Google Cloud Platform** 
 ![Valid Until](https://img.shields.io/badge/Válido_Hasta-Febrero_2026-success?style=for-the-badge)
 
 **Associate Cloud Engineer** - Google Cloud Platform  
-**Fecha de Certificación**: Febrero 2024  
-**Validez**: Hasta Febrero 2026  
+**Fecha de Certificación**: Enero 2026  
+**Validez**: Hasta Enero 2029  
 **Credential ID**: Ver [certificado](certificado/)
 
 Esta certificación valida habilidades en:
@@ -68,6 +84,22 @@ Esta certificación valida habilidades en:
 - Implementación de soluciones en la nube
 - Garantía del funcionamiento exitoso de soluciones en la nube
 - Configuración de acceso y seguridad
+
+### 🏅 Google Cloud Skill Badges
+
+1. **Mitigate Threats and Vulnerabilities with Security Command Center** (Feb 2026)
+2. **Build Infrastructure with Terraform on Google Cloud** (Dic 2025)
+3. **Develop Your Google Cloud Network** (Dic 2025)
+4. **Implement Cloud Security Fundamentals on Google Cloud** (Nov 2025)
+5. **Build a Secure Google Cloud Network** (Nov 2025)
+6. **Set Up an App Dev Environment on Google Cloud** (Nov 2025)
+7. **Implement Load Balancing on Compute Engine** (Nov 2025)
+
+### 🛡️ Certificaciones Adicionales
+
+**Blue Team Junior Analyst Pathway Bundle** - Security Blue Team (Nov 2025)  
+**Credential ID**: 918007510  
+**Skills**: OSINT, Digital Forensics, Vulnerability Management, DarkWeb Operations, Threat Hunting, Network Analysis
 
 ---
 
