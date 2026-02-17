@@ -2,7 +2,7 @@
 
 ![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge)
-![Labs](https://img.shields.io/badge/labs_completados-20-blue?style=for-the-badge)
+![Labs](https://img.shields.io/badge/labs_completados-44+-blue?style=for-the-badge)
 ![Last Update](https://img.shields.io/badge/última_actualización-diciembre_2025-orange?style=for-the-badge)
 ![GitHub stars](https://img.shields.io/github/stars/christhianrodriguez/gcp-labs-practicas?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/christhianrodriguez/gcp-labs-practicas?style=for-the-badge)
@@ -14,6 +14,7 @@
 ## 📋 Tabla de Contenidos
 
 - [Sobre este Proyecto](#-sobre-este-proyecto)
+- [Certificación](#-certificación)
 - [Prerrequisitos](#-prerrequisitos)
 - [Estructura del Repositorio](#-estructura-del-repositorio)
 - [Laboratorios Completados](#-laboratorios-completados)
@@ -24,6 +25,10 @@
   - [DevOps & Monitoring](#5-devops--monitoring)
   - [Messaging](#6-messaging)
   - [Security & IAM](#7-security--iam)
+  - [Kubernetes & GKE](#8-kubernetes--gke)
+  - [Infrastructure as Code (Terraform)](#9-infrastructure-as-code-terraform)
+  - [Data & Analytics](#10-data--analytics)
+  - [Marketplace](#11-marketplace)
 - [Tecnologías y Servicios](#️-tecnologías-y-servicios)
 - [Comparación GCP vs AWS](#-comparación-gcp-vs-aws)
 - [Cómo Usar este Repositorio](#-cómo-usar-este-repositorio)
@@ -47,6 +52,25 @@ Este repositorio documenta mi viaje de aprendizaje en **Google Cloud Platform** 
 
 ---
 
+## 🎓 Certificación
+
+![Google Cloud Certified](https://img.shields.io/badge/Google_Cloud-Associate_Cloud_Engineer-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Valid Until](https://img.shields.io/badge/Válido_Hasta-Febrero_2026-success?style=for-the-badge)
+
+**Associate Cloud Engineer** - Google Cloud Platform  
+**Fecha de Certificación**: Febrero 2024  
+**Validez**: Hasta Febrero 2026  
+**Credential ID**: Ver [certificado](certificado/)
+
+Esta certificación valida habilidades en:
+- Configuración de entornos de soluciones en la nube
+- Planificación y configuración de soluciones en la nube
+- Implementación de soluciones en la nube
+- Garantía del funcionamiento exitoso de soluciones en la nube
+- Configuración de acceso y seguridad
+
+---
+
 ## 📋 Prerrequisitos
 
 - **Cuenta de Google Cloud Platform** (nivel gratuito disponible)
@@ -60,6 +84,7 @@ Este repositorio documenta mi viaje de aprendizaje en **Google Cloud Platform** 
 
 ```
 gcp-labs-practicas/
+├── certificado/                                       # Certificación Associate Cloud Engineer
 ├── labs/
 │   ├── networking/                                    # Redes VPC, firewalls, conectividad
 │   ├── cloud-run/                                     # Despliegues serverless
@@ -67,7 +92,11 @@ gcp-labs-practicas/
 │   ├── marketplace/                                   # Soluciones preconfiguradas
 │   ├── load-balancing/                                # L4 y L7 load balancers
 │   ├── dev-environment/                               # Cloud Functions, Pub/Sub, IAM, Monitoring
-│   ├── secure-network-creation/                       # Identity-Aware Proxy, seguridad de red
+│   ├── security-operations/                           # Security Command Center, threat detection
+│   │   ├── security-basics/                           # IAM, KMS, VPC Peering, IAP, GKE
+│   │   └── scc-threat-mitigation/                     # Security Command Center labs
+│   ├── develop-network/                               # GKE, BigQuery, SQL
+│   ├── Terraform/                                     # Infrastructure as Code
 │   └── docs/                                          # Documentación y PDFs de referencia
 ├── images/                                            # Screenshots y diagramas
 └── README.md
@@ -238,9 +267,132 @@ gcp-labs-practicas/
 
 **Servicios**: `Identity-Aware Proxy` • `Cloud IAM` • `Compute Engine`
 
+#### 🔐 [Service Accounts y Roles](labs/security-operations/security-basics/Aspectos%20principales%20de%20las%20cuentas%20de%20servicio%20y%20los%20roles/Implementación%20Segura%20de%20Identidades%20de%20Máquina%20en%20Google%20Cloud.md)
+
+**Nivel**: Intermediate | **Duración**: ~45 min
+
+**Lo que aprenderás**:
+- Crear y gestionar Service Accounts
+- Aplicar principio de menor privilegio
+- Autenticación máquina-a-máquina
+
+**Servicios**: `Service Accounts` • `IAM Roles` • `BigQuery`
+
+#### 🎨 [Roles Personalizados de IAM](labs/security-operations/security-basics/Roles%20personalizados%20de%20IAM/Roles%20personalizados%20de%20IAM.md)
+
+**Nivel**: Advanced | **Duración**: ~40 min
+
+**Servicios**: `Custom IAM Roles` • `Permissions`
+
+#### 🔒 [Cloud KMS](labs/security-operations/security-basics/Empieza%20a%20usar%20Cloud%20KMS/EmpiezaA_usar_Cloud_KMS.md)
+
+**Nivel**: Intermediate | **Duración**: ~35 min
+
+**Servicios**: `Cloud KMS` • `Encryption`
+
+#### 🌐 [VPC Peering](labs/security-operations/security-basics/Intercambio%20de%20tráfico%20entre%20redes%20de%20VPC/Reporte%20de%20Laboratorio:%20Intercambio%20de%20Tráfico%20entre%20Redes%20VPC%20(VPC%20Peering).md)
+
+**Nivel**: Intermediate | **Duración**: ~50 min
+
+**Servicios**: `VPC Peering` • `Routing`
+
+#### 🔐 [Autenticación con IAP](labs/security-operations/security-basics/Autenticación%20de%20Usuarios%20con%20Identity-Aware%20Proxy%20(IAP)/Autenticación%20de%20Usuarios%20con%20Identity-Aware%20Proxy.md)
+
+**Nivel**: Advanced | **Duración**: ~60 min
+
+**Servicios**: `Identity-Aware Proxy` • `OAuth`
+
+#### 🛡️ [Cloud Armor](labs/security-operations/secure-network-creation/Balanceador%20de%20cargas%20de%20aplicaciones%20con%20Cloud%20Armor/Balanceador%20de%20cargas%20de%20aplicaciones%20con%20Cloud%20Armor.md)
+
+**Nivel**: Advanced | **Duración**: ~55 min
+
+**Servicios**: `Cloud Armor` • `DDoS Protection`
+
+#### 🏆 [Challenge: Arquitectura Segura GSP322](labs/security-operations/secure-network-creation/Lab%20de%20desafío_GSP322/Arquitectura%20de%20Red%20Segura%20y%20Modelo%20Zero%20Trust%20en%20Google%20Cloud.md)
+
+**Lab ID**: GSP322 | **Nivel**: Expert
+
+**Servicios**: `Zero Trust` • `VPC` • `IAP`
+
+#### 🐛 [Security Command Center](labs/security-operations/scc-threat-mitigation/)
+
+**Nivel**: Advanced | **Labs**: 5 (Setup, Vulnerabilities, Web Scanning, Threat Detection, Challenge)
+
+**Servicios**: `Security Command Center` • `Threat Detection`
+
 ---
 
-### 8. Marketplace
+### 8. Kubernetes & GKE
+
+#### ☸️ [Administración de Deployments en GKE](labs/develop-network/Cómo%20administrar%20implementaciones%20con%20Kubernetes%20Engine/Administración%20de%20Implementaciones%20con%20Google%20Kubernetes%20Engine.md)
+
+**Nivel**: Intermediate | **Duración**: ~60 min
+
+**Lo que aprenderás**:
+- Crear y gestionar deployments en GKE
+- Rolling updates y rollbacks
+- Scaling de aplicaciones
+
+**Servicios**: `GKE` • `Kubernetes` • `Deployments`
+
+#### 🔒 [Private GKE Cluster](labs/security-operations/security-basics/Cómo%20configurar%20un%20clúster%20de%20Kubernetes%20privado/Cómo_configurar_un_clúster_de_Kubernetes_privado.md)
+
+**Nivel**: Advanced | **Duración**: ~55 min
+
+**Lo que aprenderás**:
+- Private nodes y master endpoint
+- Network policies
+- Pod security
+
+**Servicios**: `GKE` • `Private Cluster` • `Network Policies`
+
+#### 🏆 [Challenge: Secure GKE](labs/security-operations/security-basics/Desafio:%20Implementación%20de%20Infraestructura%20Segura%20en%20Google%20Kubernetes%20Engine/Reporte%20Técnico:%20Implementación%20de%20Infraestructura%20Segura%20en%20Google%20Kubernetes%20Engine.md)
+
+**Nivel**: Expert | **Duración**: ~90 min
+
+**Servicios**: `GKE` • `RBAC` • `Workload Identity`
+
+#### 🏆 [Challenge: Desarrolla tu Red](labs/develop-network/Desarrolla%20tu%20red%20de%20Google%20Cloud:%20Lab%20de%20desafío/Desarrolla%20tu%20red%20de%20Google%20Cloud:%20Lab%20de%20desafío.md)
+
+**Nivel**: Expert | **Duración**: ~75 min
+
+**Servicios**: `VPC` • `Load Balancing` • `Firewall`
+
+---
+
+### 9. Infrastructure as Code (Terraform)
+
+#### 🏗️ [Módulos de Terraform](labs/Terraform/Cómo%20interactuar%20con%20los%20módulos%20de%20Terraform/GSP751.md)
+
+**Lab ID**: GSP751 | **Nivel**: Intermediate
+
+**Servicios**: `Terraform` • `IaC` • `Modules`
+
+#### 📦 [Estado de Terraform](labs/Terraform/Administra%20el%20estado%20de%20Terraform/AdministraelestadodeTerraform.md)
+
+**Nivel**: Advanced | **Duración**: ~45 min
+
+**Servicios**: `Terraform` • `State Management`
+
+#### 🏆 [Challenge: Terraform](labs/Terraform/Lab%20de%20desafio/LabDesafio.md)
+
+**Nivel**: Expert | **Duración**: ~60 min
+
+**Servicios**: `Terraform` • `IaC`
+
+---
+
+### 10. Data & Analytics
+
+#### 📊 [BigQuery and Cloud SQL](labs/develop-network/Introduction%20to%20SQL%20for%20BigQuery%20and%20Cloud%20SQL/BigQueryLabs.md)
+
+**Nivel**: Intermediate | **Duración**: ~60 min
+
+**Servicios**: `BigQuery` • `Cloud SQL` • `SQL`
+
+---
+
+### 11. Marketplace
 
 #### 🛒 [Primeros Pasos con Google Cloud Marketplace](labs/marketplace/mi-informe-laboratorio-primeros-pasos-google-cloud-marketplace.md)
 
